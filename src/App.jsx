@@ -7,11 +7,18 @@ function App() {
     "All",
     ...new Set(data.map((article) => article.category)),
   ];
-  console.log(allCategories);
+
   const [categories, setCategories] = useState(allCategories);
   const [articles, setArticles] = useState(data);
   const filterCategori = (category) => {
-    console.log(category);
+    if (category === "All") {
+      setArticles(data);
+      return;
+    }
+    const FilteredData = data.filter(
+      (article) => article.category === category
+    );
+    setArticles(FilteredData);
   };
 
   return (
@@ -19,7 +26,7 @@ function App() {
       <Header>
         <div className="title">
           <h1>
-            Filter <span>Blog</span>Basics
+            Filter <span>Blog</span> Basics
           </h1>
           <img
             src="https://educacion30.b-cdn.net/wp-content/uploads/2017/06/lenguajes-programacion-978x652.jpg"

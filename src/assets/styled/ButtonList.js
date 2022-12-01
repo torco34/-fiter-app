@@ -3,7 +3,7 @@ const FatherBottons = styled.div`
   .categories {
     margin: 2rem auto;
     text-align: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
 
   .btn-category {
@@ -19,11 +19,11 @@ const FatherBottons = styled.div`
     transition: all 0.4s cubic-bezier(1, -0, 0.6, 1.35);
   }
   .btn-category:hover {
-    background-color: rgba(227, 131, 86, 0.33);
+    background-color: rgba(227, 131, 86, 0.6);
   }
   .btn-category:last-child {
     margin-right: 0;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
   @media (max-width: 520px) {
     .title h1 {

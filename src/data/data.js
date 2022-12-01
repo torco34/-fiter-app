@@ -11,21 +11,21 @@ const data = [
   },
   {
     id: 2,
-    image:
-      "https://samuelkraft.com/_next/image?url=%2Fblog%2Fradix-ui-styling-with-css%2Fimage.png&w=1080&q=75",
-    title: "Styling Radix UI with CSS",
-    category: "CSS",
+    image: "/src/assets/img/colom2.jpeg",
+    title: "Guatapé y su peñol increíble",
+    category: "Colombia",
     description:
-      "Quick tip for styling Radix Primitives with plain CSS, CSS Modules, Vanilla Extract and more",
+      "Siempre que hablamos de Guatapé decimos que entra sin lugar a dudas en el top-3 de nuestro viaje por Colombia",
+
     date: "Published on Dec 14, 2021",
     ReadingTime: "3 min read",
   },
   {
     id: 3,
-    image:
-      "https://samuelkraft.com/_next/image?url=%2Fblog%2Ffractional-svg-stars-css%2Fimage.png&w=1080&q=75",
+    image: "/src/assets/img/colom3.jpeg",
     title: "Fractional SVG stars with CSS",
-    category: "CSS",
+
+    category: "Colombia",
     description:
       "Create a rating component with svg stars that support fractional values.",
     date: "Published on Sep 06, 2021",

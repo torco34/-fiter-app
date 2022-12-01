@@ -23,6 +23,9 @@ const FatherArticle = styled.div`
     border-radius: 15px;
     cursor: pointer;
     width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    /* border: 2px solid red; */
   }
   .img-container img:hover {
     transform: scale(1.3);
@@ -34,26 +37,26 @@ const FatherArticle = styled.div`
   .article-body {
     margin-top: 20px;
     margin-left: 15px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
   .article-container p {
     font-size: 16px;
     margin-bottom: 10px;
     font-weight: 300;
     line-height: 25px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
 
   .article-footer span {
     color: #8a8a8a;
     font-size: 14px;
     font-weight: 500;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
   .categories {
     margin: 2rem auto;
     text-align: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
 `;
 export { FatherArticle };
